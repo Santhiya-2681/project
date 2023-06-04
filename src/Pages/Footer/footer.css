@@ -1,0 +1,22 @@
+.footer-container{
+    background-color: black;
+    height: 50vh;
+    color: #929292;
+    padding: 50px 100px;
+    border-top:5px solid gray ;
+}
+.footer-ap{
+    flex: 1 0;
+}
+.footer-parent{
+    display: flex;
+    height: 60%;
+}
+.footer-ap a{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    font-size: 13px; 
+}
+.f-btn{
+border: 1px solid #fff ;
+}

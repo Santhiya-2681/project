@@ -1,0 +1,33 @@
+.error-container{
+    background-image: url(../../Assets/Images/404\ error.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.error-h1{
+    font-size: 50px;
+    font-weight:bolder;
+    padding: 10px;
+    padding-top: 10%;
+}
+.error-h2{
+    font-size: x-large;
+    margin: 10px;
+}
+.error-btn{
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.error-img{
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+}
+.error-btn:hover{
+    background-color:rgb(196, 206, 209);
+}

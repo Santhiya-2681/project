@@ -1,0 +1,25 @@
+.profile-img{
+    border-radius: 5px;
+    margin: 15px;
+}
+.p-a{
+   margin-left: 15px;
+   cursor: pointer;
+}
+.p-a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.profile-p-container{
+    border: 1px solid grey;
+    height: 40vh;
+   
+}
+.p3{
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+a{
+   margin: 10px;
+}

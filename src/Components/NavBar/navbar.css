@@ -1,0 +1,83 @@
+.Nav-img{
+    width: 90px;
+    height: 28px;
+    margin-left: 20px;
+}
+.nav-container{
+    position: fixed;
+    
+    z-index: 1;
+    height: 10vh;
+    padding: 10px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    width: 100%;
+    color: #fff;
+}
+.active{
+    font-weight: bold;
+}
+.navbar-inpt{
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+}
+.nav-black{
+    background-color: #000;
+}
+.flex-divs{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.search-container{
+    height: 20vh;
+    width: 300px;
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 105px;
+}
+.ntf{
+    border: 1px solid grey;
+    height: 100%;
+    background-color:black;
+}
+.img-user:hover~.down-icon{
+    transform: rotatex(180deg);
+}
+.profile-container:hover .down-icon{
+    transform: rotatex(180deg);
+}
+.profile-container{
+    height: 50vh;
+    width: 210px;
+    display: none;
+    position: absolute;
+    top:40px;
+    right: 35px;
+}
+
+.p-parent{
+    position: relative;
+    align-items: flex-end;
+    justify-content: end;
+    flex-grow: 1;
+    
+}
+.notification:hover~.search-container{
+display: block;
+} 
+.search-container:hover{
+    display: block;
+}
+.img-user:hover~.profile-container{
+    display: block;
+} 
+.profile-container:hover{
+    display: block;
+}
+@media screen and (max-width:1000px){
+    .nav-none{
+        display: none;
+    }
+}
